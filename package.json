@@ -6,14 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && touch out/.nojekyll && gh-pages -d out -t true"
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Fazal Bakshi",
+    "email": "fazalbakshi@example.com",
+    "url": "https://github.com/bakshifazal"
   },
-  "description": "Welcome to my full stack Next.js 14 space portfolio.",
+  "description": "Fazal Bakshi - Full Stack Developer & Cybersecurity Professional Portfolio",
   "keywords": [
     "reactjs",
     "nextjs",
@@ -48,12 +49,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/space-portfolioit"
+    "url": "https://github.com/bakshifazal/space-portfolio"
   },
-  "homepage": "https://github.com/sanidhyy/space-portfolio#readme",
+  "homepage": "https://bakshifazal.github.io/space-portfolio",
   "bugs": {
-    "url": "https://github.com/sanidhyy/space-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/bakshifazal/space-portfolio/issues",
+    "email": "fazalbakshi@example.com"
   },
   "funding": [
     {
@@ -86,6 +87,7 @@
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
+    "gh-pages": "^6.3.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
